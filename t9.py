@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def nao_entre_em_panico():
 
-    primos = "Nao esquecam de responder a pergunta <br> para nao ficar com falta!"
+    primos = "Teste do Heroku"
 
     return primos
 
